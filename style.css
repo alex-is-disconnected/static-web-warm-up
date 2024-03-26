@@ -1,0 +1,71 @@
+:root {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  font-weight: 250;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 17px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  padding: 2em 4em;
+}
+
+#link {
+  position: absolute;
+  top: 2em;
+  right: 2.5em;
+  font-size: 36px;
+  text-decoration: none;
+  z-index: 10;
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+#link:hover {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+}
+
+#img-parent {
+  padding: 2em 4.5em 0 4.5em;
+  mix-blend-mode: screen;
+  filter: brightness(.8);
+}
+
+#main-img {
+  max-width: 800px;
+}
+
+#spot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+} 
+
+.text-shuffle {
+  max-width: 40%;
+  padding: .5em;
+  text-align: justify;
+  min-width: 8em;
+}
+
